@@ -112,7 +112,7 @@ let selectedBudgetIds=new Set();
 document.getElementById('login-form').addEventListener('submit',e=>{
     e.preventDefault();
     const user=document.getElementById('username').value.trim(), pass=document.getElementById('password').value;
-    if(user==='Gus'&&pass==='123456'){
+    if(user==='Yo'&&pass==='123456'){
         document.getElementById('login-container').classList.add('hidden');
         document.getElementById('app-container').classList.remove('hidden');
         document.getElementById('login-error').classList.add('hidden');
